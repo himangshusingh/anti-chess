@@ -1,12 +1,8 @@
-# CLI Multiplayer Anti-Chess Game
+# CLI Multiplayer Chess Game
 
   
 
 This project is a CLI-based multiplayer anti-chess game that allows two players to play against each other over a network. 
-
-## Rules
-
-The rules followed in this porject are based on [this](https://lichess.org/variant/antichess) documentation.
 
   
 
@@ -23,23 +19,23 @@ They are mentioned in the requirements.txt file
 
 1. Clone the repository:
 
-    ```sh
+```
+git clone https://github.com/yourusername/chess_game.git
 
-    git clone https://github.com/yourusername/chess_game.git
+cd anti-chess
+```
 
-    cd anti-chess
-
-    ```
+   
 
   
 
 2. Install the dependencies:
 
-    ```sh
-
+```
+  
     pip install -r requirements.txt
 
-    ```
+```
 
   
 
@@ -53,21 +49,21 @@ They are mentioned in the requirements.txt file
 
 1. Navigate to the `server` directory:
 
-    ```sh
+```sh
 
     cd server
 
-    ```
+```
 
   
 
 2. Run the server:
 
-    ```sh
+```
 
     python server.py
 
-    ```
+```
 
   
 
@@ -77,21 +73,21 @@ They are mentioned in the requirements.txt file
 
 1. Navigate to the `client` directory:
 
-    ```sh
+```
 
     cd client
 
-    ```
+```
 
   
 
 2. Run the client:
 
-    ```sh
+```
 
     python client.py
 
-    ```
+```
 
   
 
